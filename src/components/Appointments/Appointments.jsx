@@ -8,9 +8,6 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 const Appointments = () => {
     return (
         <Container maxWidth="lg">
-            <Typography variant='h5' align='center' style={{ marginTop: "50px" }}>
-                Material UI Responsive
-            </Typography>
             <Grid container spacing={5} style={{ marginTop: "20px" }}>
                 {Data.map((result, index) => (
                     <Grid item xs={12} sm={3} ms={4} key={index}>
